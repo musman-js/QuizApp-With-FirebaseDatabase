@@ -1,0 +1,103 @@
+.mainborder{
+    background-color: #ffff;
+    margin-top: 3em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+
+
+.questionpara{
+    font-size: 30px;
+    margin-left: 20px;
+
+}
+
+.inputs{
+    font-size: 22px;
+    margin-left: 23px;
+}
+
+.input1{
+    margin-top: 19px;
+}
+
+.input2{
+    margin-top: 30px;
+}
+
+.buttonnext{
+    padding: 3px;
+    width: 5em;
+    background-color: #e9ecef;
+    margin-top: 30px;
+    margin-left: 28px;
+}
+
+.buttonnext:hover{
+    background-color: #10266b;
+    color: #ffff;
+}
+
+.homebutton{
+    padding: 3px;
+    width: 8em;
+    height: 40px;
+    margin-top: 30px;
+    margin-right: 28px;
+}
+
+.homebutton:hover{
+    background-color: #10266b;
+    color: #ffff;
+}
+
+
+@media only screen and (max-width : 500px){
+    .questionpara{
+        font-size: 27px;
+    
+    }
+    .inputs{
+        font-size: 18px;
+    }
+    
+}
+
+@media only screen and (max-width : 428px){
+    .questionpara{
+        font-size: 20px;
+    
+    }
+    .inputs{
+        font-size: 15px;
+    }
+
+    .buttonnext{
+        width: 5em;
+        margin-left: 25px;
+    }
+    
+}
+
+@media only screen and (max-width : 304px){
+    .questionpara{
+        font-size: 20px;
+        margin-left: 10px;
+    
+    }
+    .inputs{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+    .buttonnext{
+        width: 5em;
+        margin-left: 10px;
+    }
+
+    .homebutton{
+        width: 100px;
+    }
+    
+}
